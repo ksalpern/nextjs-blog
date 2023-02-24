@@ -10,7 +10,7 @@ const BlogList = ({ posts }: Props) => {
   return (
     <div>
       <hr className="border-[#f7ab0a] mb-10" />
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-24">
         {posts.map((post) => (
           <div key={post._id} className="flex flex-col cursor-pointer group ">
             <div className="relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
@@ -43,8 +43,26 @@ const BlogList = ({ posts }: Props) => {
 
             <div className="mt-5 flex-1">
               <p className="underline text-lg font-bold">{post.title}</p>
-              <p className="text-gray-500">{post.description}</p>
+              <p className="line-clamp-2 text-gray-500">{post.description}</p>
             </div>
+
+            <p className="mt-5 font-bold flex items-center group-hover:underline">
+              Read Post
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="ml-2 h-4 w-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </p>
           </div>
         ))}
       </div>
