@@ -1,27 +1,35 @@
-# Next.js + Tailwind CSS Example
+# Next.js&Sanity CMS Blog app
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+CLick [here](https://blog-nextjs-sanity-v3-ksalpern.vercel.app/) to see final result!
 
-## Deploy your own
+## What will I see in this build
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+👉 handling Dynamic data (SSR alternative in Next.js 13)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+👉 handling Static data with updates using GenerateStaticParams (ISR alternative in Next.js 13)
 
-## How to use
+👉 building a fully responsive blog site with Tailwind CSS
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+👉 using the new App folder structure in Next.js 13!
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+👉 dynamic page routing in Next.js 13
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+👉 using the GROQ query language to fetch the content from the Sanity Content Platform
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+👉 embed, host & customize the Sanity studio on the website itself whilst protecting it via Sanity Authentication
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+👉 using TypeScript to reduce the overall number of Bugs and Errors
+
+👉 deploy the final build on Vercel!
+
+## How to start project on your local machine?
+
+1. Download or clone this repository
+
+2. Install its dependencies: **yarn / npm install**
+
+3. Build the project: **yarn build / npm run build**
+
+4. Start the project: **yarn dev / npm run dev**
+
+5. The website is now working, hope you enjoy it 😃
