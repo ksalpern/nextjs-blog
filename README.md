@@ -1,6 +1,6 @@
 # Next.js&Sanity CMS Blog app
 
-CLick [here](https://blog-nextjs-sanity-v3-ksalpern.vercel.app/) to see final result!
+CLick [here](https://next-sanity-blog-app.vercel.app/) to see final result!
 
 ## What will I see in this build
 
